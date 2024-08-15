@@ -11,13 +11,10 @@ public static void Sumthenmbr()
 
     for (int i = 0; i < numbers.length ; i++)
     {
-     numbers[i] = i+1;  
+     numbers[i] = i+1;
+     sum += numbers [i];  
    }    
  
-   for (int i = 0; i < 100; i++) 
-   {
-   sum += numbers[i];    
-   }
    System.out.println("The sum is"+ sum);
 }
 
